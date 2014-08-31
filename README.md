@@ -18,7 +18,7 @@ Or install it yourself as:
 
 ## Usage
 
-To insert JavaScript files in your Rails app, add following line in your `app/assets/javascripts/application.js` file (make sure to add after requiring `jquery`.).
+To insert JavaScript files in your Rails app, add following line in your `app/assets/javascripts/application.js` file (make sure to add after requiring `jquery`).
 
 	//= require image_zoomer_main	
 
