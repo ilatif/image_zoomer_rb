@@ -18,6 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
+To insert JavaScript files in your Rails app, add following line in your `app/assets/javascripts/application.js` file (make sure to add after requiring `jquery`.).
+
+	//= require image_zoomer_main	
+
 To use this gem you can use standard `image_tag` helper that Rails provides. To have image zooming effect on your desired images you have to apply `image_zoomer` class on images. For example:
 
 	image_tag("/path/to/your/image.ext", :class => 'image_zoomer')
