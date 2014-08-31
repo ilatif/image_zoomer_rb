@@ -37,7 +37,7 @@ By-default `width` and `height` of zoom lens are set to `90px` and `zoom_level` 
 	
 The above code will override `width` and `height` properties. As we haven't overridden `zoom_level` so it will remain at `1.5`. Restart your server to see these changes in action.
 
-**Note: This gem prepares values dynamically for jQuery plugin when server starts. Due to asset pipeline issue if you make some change in code that overrides default image zooming settings then those changes don't take effect. To make sure that your changes always apply when you start / restart server this gem is deleting tmp/cache/assets directory in development mode. I hope your application is fine with this :-). **
+**Note: This gem prepares values dynamically for jQuery plugin when server starts. Due to asset pipeline issue if you make some change in code that overrides default image zooming settings then those changes don't take effect. To make sure that your changes always apply when you start / restart server this gem is deleting tmp/cache/assets directory in development mode. I hope your application is fine with this :-).**
 
 
 ## Contributing
