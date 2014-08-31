@@ -1,3 +1,4 @@
+# Contains code for zoom_image_tag helper
 module ImageZoomer
 	def zoom_image_tag(*args, &block)
 		options = insert_zoom_class(args.extract_options!)
