@@ -9,11 +9,11 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Imran Latif"]
   spec.email         = ["ilatif.bwp@gmail.com"]
   spec.summary       = %q{Image Zoomer}
-  spec.description   = %q{This gem provides functionality for zooming images by using a jQuery plugin image_zoomer.}
-  spec.homepage      = "http://i8ecoders.com/image_zoomer"
+  spec.description   = %q{This is a Rails gem for my image_zoomer jQuery plugin (https://github.com/ilatif/image_zoomer).}
+  spec.homepage      = "https://github.com/ilatif/image_zoomer_rb"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0")
+  spec.files         = `git ls-files`.split("\n")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
